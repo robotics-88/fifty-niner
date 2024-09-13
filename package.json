@@ -1,5 +1,5 @@
 {
-  "package-name": "fifty-niner",
+  "name": "fifty-niner",
   "version": "0.0.1",
   "description": "automatically pull a collection of repositories from a JSON file",
   "repository": {
