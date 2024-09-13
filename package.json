@@ -1,9 +1,22 @@
 {
+  "package-name": "fifty-niner",
+  "version": "0.0.1",
+  "description": "automatically pull a collection of repositories from a JSON file",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robotics-88/fifty-niner.git"
+  },
+  "author": { "name": "Tyler Lane", "url": "https://www.robotics88.com" },
+  "prefer-global": true,
+  "bin": {
+    "fifty-niner": "./bin/fifty-niner"
+  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./bin/fifty-niner"
   },
   "dependencies": {
     "dotenv": "^16.4.5"
   },
-  "type": "module"
+  "type": "module",
+  "license": "GPLv3"
 }
