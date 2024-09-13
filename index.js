@@ -23,8 +23,6 @@ try {
     if(depth) cloneArguments.push('--depth', depth)
     cloneArguments.push(`https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/${url}.git`)
 
-    console.log('clone', cloneArguments)
-
     let clone = spawn( 'git', cloneArguments, { cwd: WORKING_DIRECTORY })
     clone.stdout.on('data', data=> console.log(key, data.toString()))
     clone.stderr.on('data', data=> console.log(key, data.toString()))
