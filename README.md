@@ -20,6 +20,8 @@ npm install --global fifty-niner
 ```
 Now the `fifty-niner` command can be run anywhere!
 
+## `.env` File
+Set `GITHUB_USERNAME` and  `GITHUB_TOKEN` in an `.env` file so Fifty-niner will have apropriate permissions.
 
 ## JSON File Format
 
