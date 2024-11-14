@@ -1,3 +1,9 @@
+# Fifty-Niner
+
+## What is this?
+
+Say you have a lot of repositories you want to clone from. Rather than running many `git clone` commands, Fifty-Niner takes a simple JSON file and clones all the repos for you. Consider it an alternative to `CVS`.
+
 
 ## Installation:
 
@@ -5,15 +11,13 @@
 
 Using `npx` you can run the script without installing it first:
 ```
-npx fifty-niner [json file] [(optional) destination]
+npx fifty-niner [json file] [destination (optional)]
 ```
 
 ### Installing Globally
-
 ```
 npm install --global fifty-niner
 ```
-
 Now the `fifty-niner` command can be run anywhere!
 
 
