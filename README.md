@@ -2,7 +2,7 @@
 
 ## What is this?
 
-Say you have a lot of repositories you want to clone from. Rather than running many `git clone` commands, Fifty-Niner takes a simple JSON file and clones all the repos for you. Consider it an alternative to `CVS`.
+Say you have a lot of repositories you want to clone from. Rather than running many `git clone` commands, Fifty-Niner takes a simple JSON file and clones all the repos for you. Consider it an alternative to `vcstool`.
 
 
 ## Installation:
